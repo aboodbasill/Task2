@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <div align="center">
+
+        <h1><strong>Wlcome To Form Page</strong></h1>
+
+    </div>
+
+    <br><br>
+    
+    <form method="post" align="center">
+        <fieldset>
+
+            <legend>Form</legend>
+
+            <table align="center" border="1">
+
+                <tr >
+                    <th><label for="1">Name</label></th>
+                    <td><input type="text" id="1" name="name" placeholder="Enter Your Name!" required></td>
+                </tr>
+
+                <tr>
+                    <th><label for="2">Email</label></th>
+                    <td><input type="email" id="2" name="email" placeholder="Enter Your Email!" required></td>
+                </tr>
+
+                <tr>
+                    <th><label for="3">Password</label></th>
+                    <td><input type="password" id="3" name="password" placeholder="Enter Your Password!" required></td>
+                </tr>
+
+                <tr>
+                    <th><label for="4">Confirm Password</label></th>
+                    <td><input type="password" id="4" name="confirm_password" placeholder="Confirm Your Password!" required></td>
+                </tr>
+
+                <tr>
+                    <th><label for="6">Gender</label></th>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female" required>
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th><label for="7">Date of Birth</label></th>
+                    <td><input type="date" id="7" name="dob" required></td>
+                </tr>
+
+                <tr>
+                    <th><label for="8">Country</label></th>
+                    <td>
+                        <select id="8" name="country" required>
+                            <option value="">Select Country</option>
+                            <option value="USA">USA</option>
+                            <option value="UK">UK</option>
+                            <option value="Canada">Canada</option>
+                            <option value="France">France</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th><label for="5">Address</label></th>
+                    <td><textarea id="5" name="address" placeholder="Enter Your Address!" required></textarea></td>
+                </tr>
+
+            </table>
+
+            <br>
+            <input type="submit" value="Submit">
+
+        </fieldset>
+
+        <a download="meow.jfif" href="meow.jfif">تعبت؟ ريح شوي</a>
+        
+        <br><br>
+        
+        <a href="page1.html">Main Page? Click Here.</a>
+
+</body>
+</html>
